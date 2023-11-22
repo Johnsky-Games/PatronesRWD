@@ -49,3 +49,19 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media screen and (min-width: 768px) {
+   .con-sidebar {
+    display: flex;
+    gap: 2rem;
+   }
+
+   article {
+    flex: 3;
+   }
+
+   aside {
+    flex: 1;
+   }
+
+}
